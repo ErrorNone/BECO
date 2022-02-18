@@ -1,0 +1,21 @@
+.container {
+    max-width: 1200px;
+    padding: 40px 60px;
+    @media (max-width: $tablet-bp) {
+        padding: 31px 27px 27px 27px;
+    }
+
+    @media (max-width: $mobile-bp) {
+        padding: 37px 20px 27px 20px;
+    }
+}
+
+.container--main {
+    padding: 40px 60px 100px 60px; 
+    @media (max-width: $tablet-bp) {
+        padding: 27px 27px 100px 27px;
+    }
+    @media (max-width: $mobile-bp) {
+        padding: 27px 20px 100px 20px;
+    }
+}

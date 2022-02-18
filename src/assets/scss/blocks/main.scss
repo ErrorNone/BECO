@@ -1,0 +1,11 @@
+.main {
+    margin-left: $sidebar-width;
+    
+    @media (max-width: $tablet-bp) {
+        margin-left: $sidebar-width-tablet;
+    }
+    
+    @media (max-width: $mobile-bp) {
+        margin-left: $sidebar-width-mobile;
+    }
+}

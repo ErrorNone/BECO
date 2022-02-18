@@ -1,0 +1,10 @@
+.dropdown{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -47px;
+    z-index: 1;
+    @media (max-width: $tablet-bp) {
+        display: block;
+    }
+}
